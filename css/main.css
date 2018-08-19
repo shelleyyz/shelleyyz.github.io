@@ -35,12 +35,12 @@ nav a {
   font-size: 1.5em;
 }
 
-a :hover {
+nav a :hover {
   color: white;
   background-color: black;
 }
 
-img {
+#avatar {
   border-radius: 75%;
   border: solid black;
   margin: 10vw;
@@ -52,4 +52,9 @@ li {
 
 a {
   text-decoration: none;
+}
+
+/* social media */
+#twitter, #linkedin, #github, #mail {
+  padding: 20px; 
 }

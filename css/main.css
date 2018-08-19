@@ -32,11 +32,18 @@ nav a {
   list-style-type: none;
   display: inline-block;
   text-decoration: none;
+  font-size: 1.5em;
+}
+
+a :hover {
+  color: white;
+  background-color: black;
 }
 
 img {
   border-radius: 75%;
   border: solid black;
+  margin: 10vw;
 }
 
 li {

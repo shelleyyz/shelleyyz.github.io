@@ -17,7 +17,12 @@ body {
 }
 
 header {
-  background-image: url("https://www.freepik.com/free-vector/abstract-background-of-blue-pixels_949171.htm")
+  background-image: url("images/pixel.jpg");
+  display: block;
+  width: 300%;
+  margin-left: -189%;
+  height: 154vh;
+  margin-top: -20%;
 }
 
 nav {
@@ -33,19 +38,25 @@ nav a {
   display: inline-block;
   text-decoration: none;
   font-size: 1.5em;
+  color: white;
 }
 
 nav a :hover {
-  color: white;
-  background-color: black;
+  background-color: rgb(240, 182, 245);
 }
 
 #avatar {
   border-radius: 75%;
-  border: solid black;
+  border: solid rgb(240, 182, 245);
   margin: 10vw;
 }
 
+#intro-text {
+  color: white;
+  font-size: 1em;
+}
+
+/* list styling */
 li {
   list-style-type: none;
 }
@@ -56,5 +67,5 @@ a {
 
 /* social media */
 #twitter, #linkedin, #github, #mail {
-  padding: 20px; 
+  padding: 20px;
 }

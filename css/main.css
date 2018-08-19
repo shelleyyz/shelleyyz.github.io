@@ -11,6 +11,10 @@ body {
   font-family: 'Varela Round', sans-serif;
 }
 
+header {
+  background-image: url("https://www.freepik.com/free-vector/abstract-background-of-blue-pixels_949171.htm")
+}
+
 nav {
   width: 100%;
   font-size: .8em;

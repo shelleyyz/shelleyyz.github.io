@@ -5,10 +5,15 @@
   margin: 0;
 }
 
+#container {
+  margin: 0 auto;
+  width: 80vw;
+}
+
 body {
   text-align: center;
-  width: 100vw;
   font-family: 'Varela Round', sans-serif;
+  padding: 20px;
 }
 
 header {
@@ -21,7 +26,6 @@ nav {
   text-transform: uppercase;
   letter-spacing: 1vw;
   word-spacing: 1vw;
-  padding: 20px;
 }
 
 nav a {
@@ -33,4 +37,12 @@ nav a {
 img {
   border-radius: 75%;
   border: solid black;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

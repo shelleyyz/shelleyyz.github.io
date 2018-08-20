@@ -96,6 +96,7 @@ header {
 #intro-text {
   color: white;
   font-size: 1em;
+  line-height: 1.5em;
 }
 
 h2 {
@@ -106,6 +107,7 @@ h2 {
   max-width: 60vw;
   margin: 0 auto;
   text-align: left;
+  line-height: 1.5em;
 }
 
 /* list styling */
@@ -116,8 +118,15 @@ li {
 
 a {
   text-decoration: none;
+  color: rgb(240, 182, 245);
+  font-size: 1.2em;
 }
 
+a:hover {
+  background-color: rgb(240, 182, 245);
+  color: white;
+  border-radius: 4px;
+}
 /* social media */
 #twitter, #linkedin, #github, #mail {
   padding: 0 8px 0 8px;

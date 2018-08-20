@@ -15,6 +15,7 @@ $("#home").click(function(e) {
   }, 1100);
 });
 
+//onclick of about go to avatar
 $("#about").click(function(e) {
     e.preventDefault();
       $('html, body').animate({

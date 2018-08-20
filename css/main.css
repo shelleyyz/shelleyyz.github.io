@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Raleway:400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700');
 
 * {
   padding: 0;
@@ -16,6 +17,8 @@ body {
   padding-top: 20px;
   background-image: url("images/pixel.jpg");
   background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .scroll-icon {
@@ -32,6 +35,7 @@ nav {
   text-transform: uppercase;
   letter-spacing: 1vw;
   word-spacing: 1vw;
+  font-family: 'Raleway', sans-serif;
 }
 
 nav a {
@@ -39,11 +43,12 @@ nav a {
   display: inline-block;
   text-decoration: none;
   font-size: 1.5em;
-  color: white;
+  color: white !important;
 }
 
 nav a :hover {
   background-color: rgb(240, 182, 245);
+  border-radius: 4px;
 }
 
 header {
@@ -60,7 +65,7 @@ header {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation:
-  typing 4.5s steps(55, end),
+  typing 6s steps(100, end),
   blink-caret .90s step-end infinite;
 }
 
@@ -85,7 +90,7 @@ header {
 #avatar {
   border-radius: 75%;
   border: solid #ACDE64;
-  margin-bottom: 10vw;
+  margin-bottom: 3vw;
 }
 
 #intro-text {
@@ -93,18 +98,24 @@ header {
   font-size: 1em;
 }
 
+h2 {
+  font-weight: 600;
+}
+
+.main-text {
+  max-width: 60vw;
+  margin: 0 auto;
+  text-align: left;
+}
+
 /* list styling */
 li {
   list-style-type: none;
+  padding-left: 8px;
 }
 
 a {
   text-decoration: none;
-}
-
-footer {
-  bottom: 30px !important;
-  max-width: 100vw !important;
 }
 
 /* social media */

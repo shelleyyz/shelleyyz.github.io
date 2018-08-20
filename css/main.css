@@ -27,6 +27,7 @@ body {
 
 nav {
   width: 100%;
+  position: fixed;
   font-size: .8em;
   text-transform: uppercase;
   letter-spacing: 1vw;
@@ -83,8 +84,8 @@ header {
 
 #avatar {
   border-radius: 75%;
-  border: solid rgb(244, 233, 245);
-  margin: 10vw;
+  border: solid #ACDE64;
+  margin-bottom: 10vw;
 }
 
 #intro-text {

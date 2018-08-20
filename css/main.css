@@ -14,13 +14,15 @@ body {
   text-align: center;
   font-family: 'Varela Round', sans-serif;
   padding: 20px;
+  background-image: url("images/pixel.jpg");
+  background-repeat: no-repeat;
 }
 
 header {
-  background-image: url("images/pixel.jpg");
+  /* background-image: url("images/pixel.jpg"); */
   display: block;
-  width: 300%;
-  margin-left: -189%;
+  /* width: 300%;
+  margin-left: -189%; */
   height: 154vh;
   margin-top: -20%;
 }

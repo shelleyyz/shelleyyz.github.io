@@ -32,6 +32,7 @@ nav {
   width: 100%;
   position: fixed;
   font-size: .8em;
+  padding: 1rem;
   text-transform: uppercase;
   letter-spacing: 1vw;
   word-spacing: 1vw;
@@ -46,14 +47,9 @@ nav a {
   color: white !important;
 }
 
-nav a :hover {
-  background-color: rgb(240, 182, 245);
-  border-radius: 4px;
-}
-
 header {
   display: block;
-  height: 112vh;
+  height: 80vh;
 }
 
 .typewriter {
@@ -94,9 +90,7 @@ header {
 }
 
 #intro-text {
-  color: white;
-  font-size: 1em;
-  line-height: 1.5em;
+  margin-top: 20vw;
 }
 
 h2 {
@@ -116,6 +110,7 @@ li {
   padding-left: 8px;
 }
 
+/* other links on page */
 a {
   text-decoration: none;
   color: rgb(240, 182, 245);
@@ -127,6 +122,7 @@ a:hover {
   color: white;
   border-radius: 4px;
 }
+
 /* social media */
 #twitter, #linkedin, #github, #mail {
   padding: 0 8px 0 8px;

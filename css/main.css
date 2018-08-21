@@ -86,7 +86,7 @@ header {
 #avatar {
   border-radius: 75%;
   border: solid #ACDE64;
-  margin: 10vw;
+  margin: 10vw 0 8vw 0;
 }
 
 #intro-text {

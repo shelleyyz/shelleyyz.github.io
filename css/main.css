@@ -143,3 +143,36 @@ a:hover {
 #mail img {
   padding: 1em;
 }
+
+@media only screen and (max-width: 560px) {
+  nav {
+    font-size: .5em;
+    padding: .7rem;
+  }
+
+  .typewriter {
+    max-width: 325px;
+    font-size: .6em;
+  }
+
+  #twitter, #linkedin, #github, #mail {
+    padding: 0 4px 0 4px;
+  }
+
+  #twitter img {
+    padding: .5em;
+  }
+
+  #linkedin img {
+    padding: .5em;
+  }
+
+  #github img {
+    padding: .5em;
+  }
+
+  #mail img {
+    padding: .5em;
+  }
+
+}

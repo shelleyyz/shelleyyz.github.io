@@ -86,7 +86,7 @@ header {
 #avatar {
   border-radius: 75%;
   border: solid #ACDE64;
-  margin-bottom: 3vw;
+  margin: 10vw;
 }
 
 #intro-text {
@@ -147,7 +147,7 @@ a:hover {
 @media only screen and (max-width: 560px) {
   nav {
     font-size: .5em;
-    padding: .7rem;
+    padding: .2rem;
   }
 
   .typewriter {

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Raleway:400');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700');
-
 * {
   padding: 0;
   margin: 0;
@@ -55,32 +54,46 @@ header {
 .typewriter {
   color: white;
   max-width: 525px;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid white; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-  typing 6s steps(100, end),
-  blink-caret .90s step-end infinite;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation: typing 6s steps(100, end), blink-caret .90s step-end infinite;
 }
 
 /* The typing effect */
-@keyframes typing { /*@keyframes rule specifies animation code*/
-  from { width: 0 }
-  to { width: 100% }
+
+@keyframes typing {
+  /*@keyframes rule specifies animation code*/
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
 }
 
 /* The typewriter cursor effect */
+
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: white;
+  }
 }
 
 #gradient-background {
-  background: -webkit-linear-gradient(bottom, rgba(34,193,195,1) 0%, rgba(127,172,113,1) 100%);
-  background: -o-linear-gradient(bottom, rgba(34,193,195,1) 0%, rgba(127,172,113,1) 100%);
-  background: linear-gradient(to top, rgba(34,193,195,1) 0%, rgba(127,172,113,1) 100%);
+  background: -webkit-linear-gradient(bottom, rgba(34, 193, 195, 1) 0%, rgba(127, 172, 113, 1) 100%);
+  background: -o-linear-gradient(bottom, rgba(34, 193, 195, 1) 0%, rgba(127, 172, 113, 1) 100%);
+  background: linear-gradient(to top, rgba(34, 193, 195, 1) 0%, rgba(127, 172, 113, 1) 100%);
 }
 
 #avatar {
@@ -105,16 +118,18 @@ h2 {
 }
 
 /* list styling */
+
 li {
   list-style-type: none;
   padding-left: 8px;
 }
 
 /* other links on page */
+
 a {
   text-decoration: none;
   color: rgb(240, 182, 245);
-  font-size: 1.2em;
+  font-size: 1.8em;
 }
 
 a:hover {
@@ -124,6 +139,7 @@ a:hover {
 }
 
 /* social media */
+
 #twitter, #linkedin, #github, #mail {
   padding: 0 8px 0 8px;
 }
@@ -149,30 +165,30 @@ a:hover {
     font-size: .5em;
     padding: .2rem;
   }
-
   .typewriter {
     max-width: 325px;
     font-size: .6em;
   }
-
   #twitter, #linkedin, #github, #mail {
     padding: 0 4px 0 4px;
   }
-
   #twitter img {
     padding: .5em;
   }
-
   #linkedin img {
     padding: .5em;
   }
-
   #github img {
     padding: .5em;
   }
-
   #mail img {
     padding: .5em;
   }
+}
 
+.project-img {
+  width: 100%;
+  padding: 10px 10px;
+  border: solid 2px white;
+  margin-top: 5%;
 }

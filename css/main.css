@@ -107,7 +107,7 @@ header {
 }
 
 h2 {
-  font-weight: 600;
+  font-size: 2em;
 }
 
 .main-text {
@@ -129,7 +129,7 @@ li {
 a {
   text-decoration: none;
   color: rgb(240, 182, 245);
-  font-size: 1.8em;
+  font-size: 1.3em;
 }
 
 a:hover {
@@ -173,16 +173,20 @@ a:hover {
     padding: 0 4px 0 4px;
   }
   #twitter img {
-    padding: .5em;
+    padding: .4em;
+    margin-bottom: 20px;
   }
   #linkedin img {
-    padding: .5em;
+    padding: .4em;
+    margin-bottom: 20px;
   }
   #github img {
-    padding: .5em;
+    padding: .4em;
+    margin-bottom: 20px;
   }
   #mail img {
-    padding: .5em;
+    padding: .4em;
+    margin-bottom: 20px;
   }
 }
 

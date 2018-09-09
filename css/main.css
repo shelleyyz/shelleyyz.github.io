@@ -51,6 +51,15 @@ header {
   height: 728px;
 }
 
+/* navigation hover animation */
+.grow:hover
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: transform .5s ease;
+}
+
 .typewriter {
   color: white;
   max-width: 525px;
